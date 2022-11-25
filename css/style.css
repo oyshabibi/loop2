@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#header{
+    background: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+}
+.TWO img{
+    width: 70px;
+    height: 70px;
+}
+.THREE img{
+    width: 70px;
+    height: 70px;
+}
+.four img{
+    width: 70px;
+    height: 70px;
+}
+.parent .points{
+    padding: 15px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent .points .span1{
+   background-color: black;
+   border-radius: 50px;
+   width: 8px;
+   height: 8px;
+}
+.parent .points span{
+    color: #999;
+    background:#bbb;
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+}
+.payment{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.TWO{
+    border-top: 2px solid #bbb;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 30px;
+}
+.TWO h3{
+    color: #999;
+    height: 40px;
+    width: 40px;
+}
+.THREE{
+    border-top: 2px solid #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    gap: 30px;
+}
+.THREE h3{
+    margin-right: 330px;
+}
+.four{
+    border-top: 2px solid #bbb;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 30px;
+    color: #999;
+}
+.END{
+    width: 100%;
+    background-color: rgb(109, 109, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 15px;
+    border-radius: 0px 0px 20px 20px;
+}
+.btn{
+    border-radius: 0px 0px 20px 20px;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+.btn:active{
+    position: relative;
+    top: 2px;
+}
